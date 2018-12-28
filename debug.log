@@ -1,0 +1,16 @@
+[1222/153643.382:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1222/153643.439:ERROR:exception_snapshot_win.cc(88)] thread ID 24420 not found in process
+[1222/153643.340:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1222/153643.444:ERROR:exception_snapshot_win.cc(88)] thread ID 15764 not found in process
+[1224/123800.248:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1224/123800.250:ERROR:exception_snapshot_win.cc(88)] thread ID 13368 not found in process
+[1224/123800.388:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1224/123800.435:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1224/123800.435:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1224/123800.435:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1224/123800.435:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1224/123800.435:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[1224/123800.443:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1224/123800.443:ERROR:exception_snapshot_win.cc(88)] thread ID 13656 not found in process
+[1226/112719.569:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1226/112719.571:ERROR:exception_snapshot_win.cc(88)] thread ID 17348 not found in process
