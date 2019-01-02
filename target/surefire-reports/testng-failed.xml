@@ -14,14 +14,6 @@
           <include name="selectContactsTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <methods>
-          <include name="verifyUserNameTest"/>
-          <include name="verifyContactsLinkTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Free CRM App(failed) -->
 </suite> <!-- Failed suite [Free CRM Application Test Automation Suite] -->

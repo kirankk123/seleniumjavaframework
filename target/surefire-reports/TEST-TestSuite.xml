@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="39.041" tests="12" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="ANT_OPTS" value="-Xms256M -Xmx512M"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="DASHLANE_DLL_DIR" value="C:\Users\kirankk\AppData\Roaming\Dashlane\4.9.0.38686\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\kirankk\AppData\Roaming\Dashlane\4.9.0.38686\ucrt"/>
+    <property name="LOGONSERVER" value="\\KIRANKK-LAP"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_191"/>
+    <property name="ROOT_BUILD_CAUSE" value="MANUALTRIGGER"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Users\kirankk\Documents\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="KIRANKK-LAP"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="COMPUTERNAME" value="KIRANKK-LAP"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_CAUSE" value="MANUALTRIGGER"/>
+    <property name="user.name" value="kirankk"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\kirankk\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/39/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-39"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\kirankk\.jenkins\war\WEB-INF\lib\remoting-3.28.jar C:\Users\kirankk\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\kirankk\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 54254"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="6084500c01a736c7"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="%SystemRoot%\system32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Calibre2\;C:\JAVA\apache-ant-1.9.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\windows\System32\WindowsPowerShell\v1.0\;D:\kk\Selenium\geckodriver-v0.19.1-win64\geckodriver.exe;D:\kk\Selenium\chromedriver_win32\chromedriver.exe;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Git\cmd;%JAVA_HOME\bin%;C:\Program Files\apache-maven-3.2.5\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\kirankk\AppData\Roaming\Dashlane\4.9.0.38686\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\kirankk\AppData\Roaming\Dashlane\4.9.0.38686\ucrt"/>
+    <property name="GIT_COMMIT" value="33b7f880172bc605388a8d0dbda186b444f1f84f"/>
+    <property name="java.io.tmpdir" value="C:\Users\kirankk\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\kirankk\AppData\Roaming"/>
+    <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTestJob/39/"/>
+    <property name="M2_HOME" value="C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#39"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="6084500c01a736c7"/>
+    <property name="MAVEN_HOME" value="C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\kirankk\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\kirankk"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="39"/>
+    <property name="maven3.interceptor" value="C:\Users\kirankk\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;%SystemRoot%\system32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Calibre2\;C:\JAVA\apache-ant-1.9.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\windows\System32\WindowsPowerShell\v1.0\;D:\kk\Selenium\geckodriver-v0.19.1-win64\geckodriver.exe;D:\kk\Selenium\chromedriver_win32\chromedriver.exe;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Git\cmd;%JAVA_HOME\bin%;C:\Program Files\apache-maven-3.2.5\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\kirankk\AppData\Roaming\Dashlane\4.9.0.38686\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\kirankk\AppData\Roaming\Dashlane\4.9.0.38686\ucrt;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="FreeCRMAutomation"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTest"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTestJob/"/>
+    <property name="ANT_HOME" value="C:\JAVA\apache-ant-1.9.9"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/39/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\kirankk\.jenkins"/>
+    <property name="BUILD_ID" value="39"/>
+    <property name="TEMP" value="C:\Users\kirankk\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin"/>
+    <property name="M2" value="C:\Program Files\apache-maven-3.2.5\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="HUDSON_HOME" value="C:\Users\kirankk\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="KIRANKK-LAP"/>
+    <property name="BUILD_CAUSE_MANUALTRIGGER" value="true"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_191"/>
+    <property name="ADE_VISTA_SYMLINKS" value="1"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\kirankk"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\kirankk"/>
+    <property name="USERNAME" value="kirankk"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\kirankk\api\FreeCRMTest"/>
+    <property name="maven.conf" value="C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\kirankk\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.191-b26"/>
+    <property name="java.class.path" value="C:\Users\kirankk\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\kirankk\.jenkins\workspace\FreeCRMTestJob"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_191-b26"/>
+    <property name="ADE_NT_ROOT" value="C:\ADE"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes"/>
+    <property name="ROOT_BUILD_CAUSE_MANUALTRIGGER" value="true"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\kirankk\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTest"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="GIT_URL" value="https://github.com/kirankk123/seleniumjavaframework"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.044"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.012"/>
+  <testcase name="verifyContactsPageLabelTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.037"/>
+  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="3.031"/>
+  <testcase name="verifyUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="0.077"/>
+  <testcase name="selectContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="10.445">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Mayur Kiran&apos;]//..//..//input[@name=&apos;contact_id&apos;]&quot;}&#10;  (Session info: chrome=71.0.3578.98)&#10;  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;KIRANKK-LAP&apos;, ip: &apos;192.168.1.104&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\kirankk\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54607}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}&#10;Session ID: aafadb795068b76debc0e04922541ce5&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Mayur Kiran&apos;]//..//..//input[@name=&apos;contact_id&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Mayur Kiran']//..//..//input[@name='contact_id']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KIRANKK-LAP', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\kirankk\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54607}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: aafadb795068b76debc0e04922541ce5
+*** Element info: {Using=xpath, value=//a[text()='Mayur Kiran']//..//..//input[@name='contact_id']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.crm.qa.pages.ContactsPage.selectContactsByName(ContactsPage.java:39)
+	at com.crm.qa.testcases.ContactsPageTest.selectContactsTest(ContactsPageTest.java:44)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com/'
+Navigated to:'https://www.freecrm.com/'
+Trying to find Element By : By.xpath: //div[@class='intercom-borderless-dismiss-button']/span
+Found Element By : By.xpath: //div[@class='intercom-borderless-dismiss-button']/span
+Trying to click on: [[ChromeDriver: chrome on XP (aafadb795068b76debc0e04922541ce5)] -> xpath: //div[@class='intercom-borderless-dismiss-button']/span]
+Clicked on: [[ChromeDriver: chrome on XP (aafadb795068b76debc0e04922541ce5)] -> xpath: //div[@class='intercom-borderless-dismiss-button']/span]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on XP (aafadb795068b76debc0e04922541ce5)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on XP (aafadb795068b76debc0e04922541ce5)] -> xpath: //input[@type='submit']]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (aafadb795068b76debc0e04922541ce5)] -> xpath: //a[contains(text(), 'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (aafadb795068b76debc0e04922541ce5)] -> xpath: //a[contains(text(), 'Contacts')]]
+Trying to find Element By : By.xpath: //a[text()='Mayur Kiran']//..//..//input[@name='contact_id']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Mayur Kiran']//..//..//input[@name='contact_id']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KIRANKK-LAP', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\kirankk\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54607}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: aafadb795068b76debc0e04922541ce5
+*** Element info: {Using=xpath, value=//a[text()='Mayur Kiran']//..//..//input[@name='contact_id']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90) on port 32660
+Only local connections are allowed.
+Dec 28, 2018 11:24:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="8.435"/>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.376"/>
+  <testcase name="unSelectContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="10.394">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Mayur Kiran&apos;]//..//..//input[@name=&apos;contact_id&apos;]&quot;}&#10;  (Session info: chrome=71.0.3578.98)&#10;  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;KIRANKK-LAP&apos;, ip: &apos;192.168.1.104&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\kirankk\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54814}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}&#10;Session ID: 4d05ebc17077b47b220790d3dff8ff0a&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Mayur Kiran&apos;]//..//..//input[@name=&apos;contact_id&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Mayur Kiran']//..//..//input[@name='contact_id']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KIRANKK-LAP', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\kirankk\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54814}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 4d05ebc17077b47b220790d3dff8ff0a
+*** Element info: {Using=xpath, value=//a[text()='Mayur Kiran']//..//..//input[@name='contact_id']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.crm.qa.pages.ContactsPage.selectContactsByName(ContactsPage.java:39)
+	at com.crm.qa.testcases.ContactsPageTest.unSelectContactsTest(ContactsPageTest.java:49)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com/'
+Navigated to:'https://www.freecrm.com/'
+Trying to find Element By : By.xpath: //div[@class='intercom-borderless-dismiss-button']/span
+Found Element By : By.xpath: //div[@class='intercom-borderless-dismiss-button']/span
+Trying to click on: [[ChromeDriver: chrome on XP (4d05ebc17077b47b220790d3dff8ff0a)] -> xpath: //div[@class='intercom-borderless-dismiss-button']/span]
+Clicked on: [[ChromeDriver: chrome on XP (4d05ebc17077b47b220790d3dff8ff0a)] -> xpath: //div[@class='intercom-borderless-dismiss-button']/span]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@type='submit']
+Found Element By : By.xpath: //input[@type='submit']
+Trying to click on: [[ChromeDriver: chrome on XP (4d05ebc17077b47b220790d3dff8ff0a)] -> xpath: //input[@type='submit']]
+Clicked on: [[ChromeDriver: chrome on XP (4d05ebc17077b47b220790d3dff8ff0a)] -> xpath: //input[@type='submit']]
+Trying to find Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Found Element By : By.xpath: //a[contains(text(), 'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on XP (4d05ebc17077b47b220790d3dff8ff0a)] -> xpath: //a[contains(text(), 'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on XP (4d05ebc17077b47b220790d3dff8ff0a)] -> xpath: //a[contains(text(), 'Contacts')]]
+Trying to find Element By : By.xpath: //a[text()='Mayur Kiran']//..//..//input[@name='contact_id']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Mayur Kiran']//..//..//input[@name='contact_id']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KIRANKK-LAP', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\kirankk\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54814}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 4d05ebc17077b47b220790d3dff8ff0a
+*** Element info: {Using=xpath, value=//a[text()='Mayur Kiran']//..//..//input[@name='contact_id']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90) on port 24687
+Only local connections are allowed.
+Dec 28, 2018 11:25:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="5.19"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="4.356"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="4.607"/>
+</testsuite>
